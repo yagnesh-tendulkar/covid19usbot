@@ -1,0 +1,267 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Where in the United States are you located?",
+      "wrap": true,
+      "size": "medium",
+      "weight": "default",
+      "maxLines": 2
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "id": "Category",
+      "style": "compact",
+      "placeholder": "Click Here",
+      "isMultiSelect": false,
+      "value": "1",
+      "choices": [
+        {
+          "title": "Alabama",
+          "value": "Alabama"
+        },
+        {
+          "title": "Alaska",
+          "value": "Alaska"
+        },
+        {
+          "title": "American Samoa",
+          "value": "American Samoa"
+        },
+        {
+          "title": "Arizona",
+          "value": "Arizona"
+        },
+        {
+          "title": "Arkansas",
+          "value": "Arkansas"
+        },
+        {
+          "title": "California",
+          "value": "California"
+        },
+        {
+          "title": "Colorado",
+          "value": "Colorado"
+        },
+        {
+          "title": "Connecticut",
+          "value": "Connecticut"
+        },
+        {
+          "title": "Delaware",
+          "value": "Delaware"
+        },
+        {
+          "title": "District Of Columbia",
+          "value": "District Of Columbia"
+        },
+        {
+          "title": "Federated States Of Micronesia",
+          "value": "Federated States Of Micronesia"
+        },
+        {
+          "title": "Florida",
+          "value": "Florida"
+        },
+        {
+          "title": "Georgia",
+          "value": "Georgia"
+        },
+        {
+          "title": "Guam",
+          "value": "Guam"
+        },
+        {
+          "title": "Hawaii",
+          "value": "Hawaii"
+        },
+        {
+          "title": "Idaho",
+          "value": "Idaho"
+        },
+        {
+          "title": "Illinois",
+          "value": "Illinois"
+        },
+        {
+          "title": "Indiana",
+          "value": "Indiana"
+        },
+        {
+          "title": "Iowa",
+          "value": "Iowa"
+        },
+        {
+          "title": "Kansas",
+          "value": "Kansas"
+        },
+        {
+          "title": "Kentucky",
+          "value": "Kentucky"
+        },
+        {
+          "title": "Louisiana",
+          "value": "Louisiana"
+        },
+        {
+          "title": "Maine",
+          "value": "Maine"
+        },
+        {
+          "title": "Marshall Islands",
+          "value": "Marshall Islands"
+        },
+        {
+          "title": "Maryland",
+          "value": "Maryland"
+        },
+        {
+          "title": "Massachusetts",
+          "value": "Massachusetts"
+        },
+        {
+          "title": "Michigan",
+          "value": "Michigan"
+        },
+        {
+          "title": "Minnesota",
+          "value": "Minnesota"
+        },
+        {
+          "title": "Mississippi",
+          "value": "Mississippi"
+        },
+        {
+          "title": "Missouri",
+          "value": "Missouri"
+        },
+        {
+          "title": "Montana",
+          "value": "Montana"
+        },
+        {
+          "title": "Nebraska",
+          "value": "Nebraska"
+        },
+        {
+          "title": "Nevada",
+          "value": "Nevada"
+        },
+        {
+          "title": "New Hampshire",
+          "value": "New Hampshire"
+        },
+        {
+          "title": "New Jersey",
+          "value": "New Jersey"
+        },
+        {
+          "title": "New Mexico",
+          "value": "New Mexico"
+        },
+        {
+          "title": "New York",
+          "value": "New York"
+        },
+        {
+          "title": "North Carolina",
+          "value": "North Carolina"
+        },
+        {
+          "title": "North Dakota",
+          "value": "North Dakota"
+        },
+        {
+          "title": "Northern Mariana Islands",
+          "value": "Northern Mariana Islands"
+        },
+        {
+          "title": "Ohio",
+          "value": "Ohio"
+        },
+        {
+          "title": "Oklahoma",
+          "value": "Oklahoma"
+        },
+        {
+          "title": "Oregon",
+          "value": "Oregon"
+        },
+        {
+          "title": "Palau",
+          "value": "Palau"
+        },
+        {
+          "title": "Pennsylvania",
+          "value": "Pennsylvania"
+        },
+        {
+          "title": "Puerto Rico",
+          "value": "Puerto Rico"
+        },
+        {
+          "title": "Rhode Island",
+          "value": "Rhode Island"
+        },
+        {
+          "title": "South Carolina",
+          "value": "South Carolina"
+        },
+        {
+          "title": "South Dakota",
+          "value": "South Dakota"
+        },
+        {
+          "title": "Tennessee",
+          "value": "Tennessee"
+        },
+        {
+          "title": "Texas",
+          "value": "Texas"
+        },
+        {
+          "title": "Utah",
+          "value": "Utah"
+        },
+        {
+          "title": "Vermont",
+          "value": "Vermont"
+        },
+        {
+          "title": "Virgin Islands",
+          "value": "Virgin Islands"
+        },
+        {
+          "title": "Virginia",
+          "value": "Virginia"
+        },
+        {
+          "title": "Washington",
+          "value": "Washington"
+        },
+        {
+          "title": "West Virginia",
+          "value": "West Virginia"
+        },
+        {
+          "title": "Wisconsin",
+          "value": "Wisconsin"
+        },
+        {
+          "title": "Wyoming",
+          "value": "Wyoming"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Submit"
+    }
+  ]
+}

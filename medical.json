@@ -1,0 +1,78 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "Do you have a medical history of any of the following conditions?.",
+        "wrap": true,
+        "size": "medium",
+        "weight": "default",
+        "maxLines": 2
+      },
+      {
+        "type": "Input.ChoiceSet",
+        "id": "Category",
+        "style": "compact",
+        "placeholder": "Click Here",
+        "isMultiSelect": true,
+        "value": "1",
+        "choices": [
+        
+          {
+            "title": "Diabetes",
+            "value": "Diabetes"
+          },
+          {
+            "title": "High Blood Pressure",
+            "value": "High Blood Pressure"
+          },
+          {
+            "title": "Heart Disease",
+            "value": "Heart Disease"
+          },
+          {
+            "title": "Asthma",
+            "value": "Asthma"
+          },
+          {
+            "title": "Chronic Lung Disease",
+            "value": "Chronic Lung Disease"
+          },
+          {
+            "title": "Cancer",
+            "value": "Cancer"
+          },
+          {
+            "title": "Immune Deficiencies",
+            "value": "Immune Deficiencies"
+          },
+          {
+            "title": "Severe Obesity",
+            "value": "Severe Obesity"
+          },  {
+            "title": "Pregnancy",
+            "value": "Pregnancy"
+          },
+          {
+            "title": "None",
+            "value": "None"
+          }
+        
+         
+        ]
+      }
+     
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "Submit",
+        "value":"Submit"
+    
+        
+        
+      }
+    ]
+  }
